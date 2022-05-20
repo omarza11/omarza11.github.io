@@ -1,3 +1,6 @@
 html {
     color: blue;
 }
+title {
+    display: inline-block
+}
