@@ -21,6 +21,10 @@
     text-decoration: none;
 }
   
+
+.navbar-right {
+    float:right;
+}
 /* Change background on mouse-over */
 .navbar a:hover {
     background: #ddd;
