@@ -26,9 +26,9 @@
     float:right;
 }
 
-.navbar img {
-    width: 50px;
-    height: 50px
+.navbar-right img {
+    width: 10px;
+    height: 10px
 }
 /* Change background on mouse-over */
 .navbar a:hover {
