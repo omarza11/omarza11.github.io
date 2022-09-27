@@ -21,15 +21,18 @@
     text-decoration: none;
 }
   
-
+/* Right side of Navbar*/
 .navbar-right {
     float:right;
 }
 
+/* Navbar right saide image properties*/
 .navbar-right img {
-    width: 25px;
-    height: 25px
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
 }
+
 /* Change background on mouse-over */
 .navbar a:hover {
     background: #ddd;
