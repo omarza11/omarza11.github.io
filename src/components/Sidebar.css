@@ -1,0 +1,48 @@
+/* Sidebar.css */
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: lightblue;
+  }
+
+div.image-header {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid lightblue;
+    
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid lightblue;
+    width: 80%;
+    height: 80%;
+}
+
+p.copyright-info {
+    margin-bottom: 0;
+    text-align: center;
+    color: lightblue;
+    border-top: 1px solid lightblue;
+    padding: 15px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+ul.sidebar-menu {
+    padding: 15px 5px;
+    
+}
