@@ -105,15 +105,36 @@ div.section-title h2:after, h2:before {
   bottom: 0;
   height: 5px;
   border-radius: 100px;
+  z-index: 1;
 }
 div.section-title h2:before {
   width: 100px;
   background:rgb(109, 196, 224);
+  z-index: 1;
 }
 
 div.section-title h2:after {
   width: 35px;
   background: #037fff;
+  z-index: 1;
+}
+
+div.section-title span {
+  position: absolute;
+    left: 0;
+    top: 100%;
+    font-size: 5rem;
+    line-height: 1;
+    font-weight: 900;
+    color: rgba(41, 44, 53, 0.44);
+    display: inline-block;
+    text-transform: uppercase;
+    z-index: 0;
+    transform: translateY(-45%);
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
 }
 
 h5 {

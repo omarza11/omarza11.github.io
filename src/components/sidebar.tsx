@@ -12,7 +12,7 @@ const Sidebar = () => {
       </div>
       <ul className='sidebar-menu'>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
+        <li><Link to="/about">About Me</Link></li>
         <li><Link to="/resume">Resume</Link></li>
         <li><Link to="/programming">Programming</Link></li>
       </ul>

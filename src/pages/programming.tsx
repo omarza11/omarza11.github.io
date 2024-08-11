@@ -12,6 +12,7 @@ const Programming = () => {
         <div className='pages'>
           <div className='section-title'>
             <h2>Programming</h2>
+            <span>Programming</span>
           </div>
           
         </div>

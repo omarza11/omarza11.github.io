@@ -1,0 +1,49 @@
+div.about {
+    position: relative;
+    display: flex;
+}
+
+div.about-image {
+    float:left;
+    width: 400px;
+    position: relative;
+}
+
+div.about-info {
+    padding-left: 5%;
+    position: relative;
+    text-align: left;
+    color: lightgray;
+}
+
+div.about-info h3 {
+    font-size: 2em;;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+div.about-info p {
+    margin-top: 0;
+}
+
+h3 strong {
+    color: #037fff;
+    margin-bottom: 0;
+}
+
+div.about-info ul li {
+    margin-top: 1em;
+}
+div.about-info ul li b{
+    min-width: 175px;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+}
+
+li b:after {
+    content: ":";
+    position: absolute;
+    right: 0;
+}

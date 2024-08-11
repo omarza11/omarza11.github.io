@@ -12,6 +12,7 @@ const Resume = () => {
         <div className='pages'>
           <div className='section-title'>
             <h2>Resume</h2>
+            <span>Resume</span>
           </div>
           
         </div>

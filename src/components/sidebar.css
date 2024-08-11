@@ -4,7 +4,7 @@ ul {
     padding: 0;
   }
   
-  li {
+ul.sidebar-menu li {
     margin-bottom: 10px;
     text-align: center;
   }
@@ -24,7 +24,8 @@ div.image-header {
     
 }
 
-img {
+
+div.image-header img {
     border-radius: 50%;
     border: 5px solid lightblue;
     width: 80%;
