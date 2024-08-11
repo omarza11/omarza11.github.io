@@ -1,10 +1,11 @@
 // Resume.tsx
 import React from 'react';
+import StarryNight from '../components/starryNight';
 
 const Resume = () => {
   return (
-    <div className='content'>
-      <h1>Resume</h1>
+    <div className='background-canvas' id='background-canvas'>
+      <StarryNight />
     </div>
   );
 };

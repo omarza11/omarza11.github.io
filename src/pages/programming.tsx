@@ -1,10 +1,11 @@
 // Programming.tsx
 import React from 'react';
+import StarryNight from '../components/starryNight';
 
 const Programming = () => {
   return (
-    <div className='content'>
-      <h1>Programming</h1>
+    <div className='background-canvas' id='background-canvas'>
+      <StarryNight />
     </div>
   );
 };

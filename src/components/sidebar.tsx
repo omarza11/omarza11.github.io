@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import headshot from '../assets/Headshot.jpg'
-import './Sidebar.css';
+import './sidebar.css';
 
 const Sidebar = () => {
   return (

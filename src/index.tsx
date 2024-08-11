@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './index.css';
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/sidebar';
 import About from './pages/about';
 import Home from './pages/index'
 import Resume from './pages/resume';
@@ -14,6 +14,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Router>
+      <div className='content'>
       <Sidebar />
       <Routes>
         <Route path="/" Component={Home}/>
@@ -21,6 +22,8 @@ root.render(
         <Route path="/resume" Component={Resume} />
         <Route path="/programming" Component={Programming} />
       </Routes>
+      </div>
+
     </Router>
   </React.StrictMode>
 );
