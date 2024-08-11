@@ -57,16 +57,27 @@ canvas {
 }
 
 div.container {
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
   height:100%;
   width:100%;
   position: absolute;
 }
+
 div.home {
   color: rgba(255, 255, 255, 0.562);
   text-align: center;
-  padding: 15% 10%;
+  padding: 15% 15%;
+}
+
+div.pages {
+  color: rgba(255, 255, 255, 0.562);
+  padding-top: 10%;
+}
+
+div.section-title {
+  margin-bottom: 5%;
+  position: relative;
 }
 
 h1 {
@@ -75,6 +86,34 @@ h1 {
   font-size: 300%;
   margin-bottom: .5em;
   margin-top: 0;
+}
+
+h2 {
+  color: white;
+  font-size: 250%;
+  margin-bottom: .5em;
+  margin-top: 0;
+  text-transform: uppercase;
+  padding-bottom: .5em;
+}
+
+div.section-title h2:after, h2:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: auto;
+  bottom: 0;
+  height: 5px;
+  border-radius: 100px;
+}
+div.section-title h2:before {
+  width: 100px;
+  background:rgb(109, 196, 224);
+}
+
+div.section-title h2:after {
+  width: 35px;
+  background: #037fff;
 }
 
 h5 {
@@ -88,6 +127,7 @@ h5 {
 p {
   font-size:120%;
 }
+
 ul.icons li a{
   margin: 10px;
 }

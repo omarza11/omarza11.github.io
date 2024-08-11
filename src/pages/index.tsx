@@ -20,7 +20,7 @@ const Home = () => {
           <p>
             I'm based in Chicago and went to school at the University of Illinois Urbana-Champaign where I studied Computer Science.
             I have had two internships at Amazon working in the Devices Org. Now I work in Fintech as a DevOps Software Engineer.
-            I enjoy learning new languages, working on projects taht are used by people daily, and combining both Technology with Finance.
+            I enjoy learning new languages, working on projects that are used by people daily, and combining both Technology with Finance.
           </p>
           <br />
           <ul className='icons'>

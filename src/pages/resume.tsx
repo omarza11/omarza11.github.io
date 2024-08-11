@@ -8,6 +8,14 @@ const Resume = () => {
       <div className='background-canvas' id='background-canvas'>
         <StarryNight />
       </div>
+      <div className='container'>
+        <div className='pages'>
+          <div className='section-title'>
+            <h2>Resume</h2>
+          </div>
+          
+        </div>
+      </div>
     </div>
   );
 };
