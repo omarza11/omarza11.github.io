@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Router>
-      <div className='content'>
+      <div className='layout'>
       <Sidebar />
       <Routes>
         <Route path="/" Component={Home}/>

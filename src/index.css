@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {
@@ -20,10 +21,10 @@ div.sidebar {
   background-color: #2a304a;
   position: fixed;
   height: 100%;
-  overflow: auto;
+  
 }
 
-div.content {
+div.layout {
   border-left: 1px solid lightblue;
   padding-left: 250px;
   height: 100%;
@@ -31,14 +32,19 @@ div.content {
   background-color: #10121b;
   position: absolute;
 }
+div.content {
+  height: 100%;
+  width:100%;
+  display: inline-block;
+  border-left: 1px solid lightblue;
+  position: relative;
+}
+
 
 div.background-canvas {
   height: 100%;
-  border-left: 1px solid lightblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+  position: absolute;
+  width:100%;
 }
 
 canvas {
@@ -48,4 +54,40 @@ canvas {
 
 * {
   box-sizing: border-box;
+}
+
+div.container {
+  padding-left: 20%;
+  padding-right: 20%;
+  height:100%;
+  width:100%;
+  position: absolute;
+}
+div.home {
+  color: rgba(255, 255, 255, 0.562);
+  text-align: center;
+  padding: 15% 10%;
+}
+
+h1 {
+  color:rgb(109, 196, 224);
+  font-weight: 700;
+  font-size: 300%;
+  margin-bottom: .5em;
+  margin-top: 0;
+}
+
+h5 {
+  color:white;
+  font-size: 150%;
+  line-height: 1em;
+  margin-top: 0;
+  margin-bottom: .5em;
+}
+
+p {
+  font-size:120%;
+}
+ul.icons li a{
+  margin: 10px;
 }
