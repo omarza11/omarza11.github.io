@@ -10,7 +10,7 @@ interface Props {
 }
 
 export default function StarryNight(props: Props) {
-	const { speedFactor = 0.05, backgroundColor = 'black', starColor = [255, 255, 255], starCount = 5000 } = props;
+	const { speedFactor = 0.01, backgroundColor = 'black', starColor = [255, 255, 255], starCount = 5000 } = props;
 
 	useEffect(() => {
 		const canvas = document.getElementById('starrynight') as HTMLCanvasElement;
