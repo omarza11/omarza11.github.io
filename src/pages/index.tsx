@@ -15,12 +15,12 @@ const Home = () => {
           <h1>Omar Abdelqader</h1>
           <h5>Software Engineer</h5>
           <p> I created this website to share my background, resume, and projects I have worked on. 
-            I am currently an Assiocate Software Engineer at Gelber Group LLC.
+            I am currently an Associate Software Engineer at Gelber Group LLC.
           </p>
           <p>
             I'm based in Chicago and went to school at the University of Illinois Urbana-Champaign where I studied Computer Science.
             I have had two internships at Amazon working in the Devices Org. Now I work in Fintech as a DevOps Software Engineer.
-            I enjoy learning new languages, working on projects that are used by people daily, and combining both Technology with Finance.
+            I enjoy learning new languages, working on projects that are used by people daily, and combining Technology with Finance.
           </p>
           <br />
           <ul className='icons'>
