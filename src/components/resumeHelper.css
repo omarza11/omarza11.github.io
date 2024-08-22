@@ -1,0 +1,57 @@
+div.grouping {
+    margin-top: 20px;
+    display: flex;
+}
+div.timeline {
+    float:left;
+    width: 200px;
+    position: relative;
+    padding-left: 15px;
+    flex: 0 0 215px;
+}
+li.resume-list::before {
+    content: "• ";
+    color: white;
+}
+
+div.summary {
+    padding-left: 5%;
+    position: relative;
+    text-align: left;
+    color: lightgray;
+}
+
+h5.summary-title {
+    margin: 0;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: blue;
+    margin-bottom: 5px;
+}
+h6.summary-place {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color:white;
+}
+p.summary-description {
+    color: rgba(255, 255, 255, 0.562);
+}
+
+p.timeline-date {
+    margin-top: 0;
+}
+
+p.timeline-date::before {
+    content: "";
+    position: absolute;
+    left: -8px;
+    top: 5px;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    background: #10121b;
+    border: 3px solid rgba(255, 255, 255, 0.562);
+}
